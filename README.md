@@ -67,3 +67,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 "# MocellTool-Reactjs" 
+
+### Bibliotecas adicionadas
+(Criação: create-react-app)
+
+npm install react-route-dom
+
+npm install redux --save
+
+npm install react-redux --save
+
+npm install redux-thunk
+
+npm install redux-form

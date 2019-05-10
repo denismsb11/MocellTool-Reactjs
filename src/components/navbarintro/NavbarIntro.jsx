@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Navbarintro.css';
+import { Link } from 'react-router-dom';
+import './NavbarIntro.css';
 
 class NavbarIntro extends Component {
   render() {
@@ -7,9 +8,11 @@ class NavbarIntro extends Component {
         <nav>
         <div className="nav-wrapper">
           <ul id="nav-mobile" className="left hide-on-med-and-down">
-          <li><a href="#">Mocell</a></li>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Cadastrar</a></li>
+          <li><a>Mocell</a></li>
+          <div className="right">
+            <li><Link to="/login">Login</Link></li>
+            <li><Link to="/cadastro">Cadastrar</Link></li>
+          </div>
           </ul>
         </div>
       </nav>
